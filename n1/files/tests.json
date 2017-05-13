@@ -1,0 +1,179 @@
+[
+	{
+		"v": [
+			{
+				"prob": 70,
+				"name": "disc",
+				"data":
+				{
+					"min": 0,
+					"max": 0
+				}
+			},
+			{
+				"prob": 25,
+				"name": "norm",
+				"data":
+				{
+					"mean": 1,
+					"disp": 0.3,
+					"min": 0.5,
+					"max": 1.5
+				}
+			},
+			{
+				"prob": 5,
+				"name": "ravn",
+				"data":
+				{
+					"min": 2,
+					"max": 5
+				}
+			}
+		],
+		"res": [
+			{
+				"r": 0
+			},
+			{
+				"br": 0.5,
+				"mr": 1.5
+			},
+			{
+				"br": 2,
+				"mr": 5
+			}
+		]
+	},
+	{
+		"v": [
+			{
+				"prob": 50,
+				"name": "disc",
+				"data":
+				{
+					"min": -2,
+					"max": 2
+				}
+			},
+			{
+				"prob": 30,
+				"name": "expo",
+				"data":
+				{
+					"l": 4
+				}
+			},
+			{
+				"prob": 15,
+				"name": "ravn",
+				"data":
+				{
+					"min": 5,
+					"max": 8
+				}
+			},
+			{
+				"prob": 5,
+				"name": "norm",
+				"data":
+				{
+					"mean": 0,
+					"disp": 0.5,
+					"min": -1,
+					"max": 1
+				}
+			}
+		],
+		"res": [
+			{
+				"br": -2
+			}
+		]
+	},
+	{
+		"v": [
+			{
+				"prob": 60,
+				"name": "expo",
+				"data":
+				{
+					"l": 0.2
+				}
+			},
+			{
+				"prob": 20,
+				"name": "disc",
+				"data":
+				{
+					"min": -2,
+					"max": -2
+				}
+			},
+			{
+				"prob": 15,
+				"name": "ravn",
+				"data":
+				{
+					"min": -5,
+					"max": -3
+				}
+			},
+			{
+				"prob": 5,
+				"name": "norm",
+				"data":
+				{
+					"mean": 7,
+					"disp": 0.2,
+					"min": -8,
+					"max": -6
+				}
+			}
+		],
+		"res": [
+			{
+				"br": 0
+			},
+			{
+				"r": -2
+			},
+			{
+				"br": -5,
+				"mr": -3
+			},
+			{
+				"br": -8,
+				"mr": -5
+			}
+		]
+	},
+	{
+		"v": [
+			{
+				"prob": 60,
+				"name": "disc",
+				"data":
+				{
+					"min": 0,
+					"max": 10
+				}
+			},
+			{
+				"prob": 40,
+				"name": "ravn",
+				"data":
+				{
+					"min": -4,
+					"max": 4
+				}
+			}
+		],
+		"res": [
+			{
+				"br": -4,
+				"mr": 10
+			}
+		]
+	}
+]
